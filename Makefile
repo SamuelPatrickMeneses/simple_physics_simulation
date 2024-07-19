@@ -1,6 +1,6 @@
 EXECUTABLE_NAME = bin
 LD_INCLUDES=-lm -lGL -lglut -lBox2D -v
-COMPILER= clang++
+COMPILER= g++
 SOURCE_LIST=./src/test.cpp ./src/primitiveDraw.cpp ./src/internals.cpp ./src/util.cpp ./src/entities.cpp ./src/keyBuffer.cpp
 
 all: clean run
